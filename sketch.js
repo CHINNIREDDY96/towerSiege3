@@ -78,7 +78,7 @@ if(backgroundImg){
 		background("black")};
 	
 Engine.update(engine);
-   
+   fill("white");
   text("SCORE : " +score, 750,40)
 
   groundb.display();
