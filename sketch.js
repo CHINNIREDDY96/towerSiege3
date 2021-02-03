@@ -74,6 +74,9 @@ function draw(){
 if(backgroundImg){
     background(backgroundImg);
     }
+	else{
+		background("black")};
+	
 Engine.update(engine);
    
   text("SCORE : " +score, 750,40)
